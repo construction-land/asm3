@@ -1,0 +1,118 @@
+@media only screen and (max-width: 767.98px) {
+    
+    body {
+      /* background-color: lightblue; */
+    }
+
+    /* ## BANNER section */
+    #banner {
+      margin: auto;
+      display: block;    
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .banner-img{
+      width: 100%;
+      padding: 0;
+    }
+
+          /* chữ trên banner, hiện bên trên hình.. điều chỉnh font-size nhỏ hơn trong small device */
+    .banner-text {
+          position: absolute;
+          top: 25%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+    }
+
+    .banner-text > h1{
+      font-size:large;
+    }
+
+    .banner-text > span{
+      font-size: smaller;
+    }
+
+    /* ## NAV section */
+    /* khong hien thi avatar */
+
+    #nav-bar{
+      padding-left: 15px;;
+    }
+
+    #nav-item-center{
+      display: none;
+    }
+
+    #nav-item-advanced{
+      display: none;
+    }
+
+    #nav-item{
+      border-color: white;
+      font-size: small;
+    }
+    
+
+
+
+    /* ## ABOUT section */
+    /* Dieu chinh padding cho cac item trong About section */
+    #section-about-title-left{
+      padding-left: 5px;
+    }
+    
+    #about-content-left{
+      padding-left: 5px;
+    }
+    
+    #section-about-title-right{
+      padding-left: 5px;
+    }
+    
+
+    /* ## JOB section */
+    #job-info{
+      padding-left: 20px;
+      padding-right: 20px;
+    } 
+  
+
+
+    /* ## CERTIFICATE section  */
+    /* Xoa gach ngang chia doi */
+    #cert-horizontial-line{
+      display: none;
+    }
+
+    /* them cac border bottom cho cert */
+    #cert-item-1 {
+      border-bottom: 2px solid orange;
+      margin-bottom: 10px;
+    }
+    #cert-item-2 {
+      border-bottom: 2px solid orange;
+      margin-bottom: 10px;
+    }
+    #cert-item-3 {
+      margin-bottom: 10px;
+    }
+
+
+    /* ## DUAN section  */
+    #project-item-year-title{
+      padding-left: 10px;
+    
+    }
+
+    /* ## FOOTER */
+    #footer-section-sm{
+      display: none;
+    }
+
+    #footer-section-xs{
+      display: flex;
+      justify-content: space-around;
+    }
+}

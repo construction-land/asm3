@@ -1,0 +1,55 @@
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        /* background-color: rgb(237, 198, 228); */
+      }
+
+    /* ## BANNER section */
+    #banner {
+      margin: auto;
+      display: block;    
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .banner-img{
+      width: 100%;
+      padding: 0;
+    }
+
+    /* chữ trên banner, hiện bên trên hình.. điều chỉnh font-size nhỏ hơn trong small device */
+    .banner-text {
+          position: absolute;
+          top: 25%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+    }
+
+    
+    /* # NAV section */
+    /* Khong hien thi hinh anh avata tren thanh navigation */
+    #nav-item-advanced{
+      display: none;
+    }
+
+
+    /* ## ABOUT section */
+    #section-about-title-left{
+      padding-left: 15px;
+    }
+    
+    #about-content-left{
+      padding-left: 15px;
+    }
+    
+    #section-about-title-right{
+      padding-left: 5px;
+    }
+
+
+
+    /* ## FOOTER ## */
+    #footer-section-xs{
+      display: none;
+    }
+}

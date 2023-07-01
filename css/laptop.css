@@ -1,0 +1,36 @@
+@media only screen and (min-width: 992px)  {
+
+/* ## ABOUT section */
+#section-about-title-left{
+  padding-left: 40px;
+}
+
+.banner-text > h1{
+  font-size: 60px;
+}
+
+.banner-text > span{
+  font-size:32px;
+}
+
+/* ## ABOUT section */
+#about-content-left{
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+#about-content-right{
+  font-size: 18px;
+}
+
+#section-about-title-right{
+  padding-left: 5px;
+}
+
+
+/* ## FOOTER section */
+#footer-section-xs{
+        display: none;
+}
+  
+}

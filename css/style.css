@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* ## BANNER section */
+#banner {
+    margin: auto;
+    display: block;    
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .banner-img{
+    width: 100%;
+    padding: 0;
+  }
+
+  /* chữ trên banner, hiện bên trên hình.. điều chỉnh font-size nhỏ hơn trong small device */
+  .banner-text {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+  }
+
+
+/* # NAV  */
+
+#nav-bar{
+    position: relative;
+    display: block;
+    font-size: 18px;
+}
+
+#nav-item, #nav-item-center{
+    border-style: solid;
+    border-color: rgb(238, 233, 233);
+    border-width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 3px;  
+    padding-bottom: 3px; 
+}
+
+#nav-item-center {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(127, 200, 234);
+}
+
+
+#nav-item-advanced {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-150%,-50%);
+    border-radius: 50%;
+    width: 50px;
+}
+
+
+/* ## JOB section */
+
+.job-info-item{
+    border-width: 1px;
+    border-color: rgb(28, 27, 27);
+    border-style: solid;
+    margin: 3px;
+}
+
+
+#job-item-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+#job-item-top-left{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#job-item-top-right{
+    display: inline-block;
+}
+
+#job-item-bottom{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+#job-item-bottom-left{
+    justify-self: center;
+    padding-top: 5px;
+}
+
+.level-bar{
+    background: #199cdb;
+    /* background: #90979a; */
+    display: inline-block;
+    height: 2px;
+    width: 45px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.level-bar-grey {
+    background: #90979a;
+    display: inline-block;
+    height: 2px;
+    width: 45px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#so-thich-item{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+
+/* ## CERT section ## */
+#cert-item-2{
+    border-left: 2px solid orange;
+}
+
+
+/* ## PROJECT section ## */
+#project-item-mota, #project-item-nhiemvu, #project-item-congnghe{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.project-item{
+    padding-top: 20px;
+}
+
+
+#project-item-tenduan, #project-item-year-title, #project-item-mota, #project-item-nhiemvu, #project-item-congnghe{
+    border: 1px solid lightgray;
+    padding-left: 3px;
+}
