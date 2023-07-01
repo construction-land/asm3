@@ -12,7 +12,7 @@ body{
 /* Điều chỉnh border left, right, botom cho màn hình lớn và nhỏ  */
 
 /* màn hình lớn: Laptop (lg) */
-@media screen and (min-device-width: 1200px) {
+@media screen and (min-width: 992px) {
 
     .box-goals {
         padding-top: 5px;
@@ -58,7 +58,7 @@ body{
 }
 
 /* TABLET and PHONE, md and sm device */
-@media screen and (max-device-width: 1200px) {
+@media screen and (max-width: 991.98px) {
     .box-goals {
         padding-top: 5px;
         padding-bottom: 5px;
